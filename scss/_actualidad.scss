@@ -1,0 +1,61 @@
+.article--actualidad {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    align-content  : center;
+    justify-content: space-evenly;
+    width          : 100%;
+}
+
+.article__card__background__actualidad {
+    margin-left     : 1rem;
+    margin-right    : 1rem;
+    margin-top      : 1rem;
+    margin-bottom   : 2rem;
+    opacity         : 100%;
+    background-color: $whiteColor;
+    width           : 30%;
+    box-shadow      : 0.15rem 0.15rem 0.7rem $whiteBoxShadow;
+}
+
+.article--card--actualidad {
+    position     : relative;
+    border       : 1rem;
+    border-color : black;
+    align-content: stretch;
+}
+
+#article__title_actualidad {
+    margin       : 1rem;
+    padding-top  : 1rem;
+    padding-left : 1rem;
+    padding-right: 1rem;
+    font-family  : 'Ubuntu', sans-serif;
+    color        : $greyColor;
+    text-shadow  : 0.15rem 0.15rem 0.5rem $greyShadow;
+}
+
+.article__text__actualidad {
+    color         : $whiteBoxShadow;
+    margin-bottom : 1rem;
+    margin-left   : 1rem;
+    margin-right  : 1rem;
+    padding-bottom: 1rem;
+    padding-left  : 1rem;
+    padding-right : 1rem;
+}
+
+.section__rrss__actualidad {
+    width: 100%;
+}
+
+#rrssActualidad {
+    margin-top     : 4rem;
+    margin-bottom  : 4rem;
+    padding        : 0rem;
+    display        : flex;
+    flex-direction : row;
+    column-gap: 3rem;
+    justify-content: space-evenly;
+    list-style     : none;
+}

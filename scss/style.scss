@@ -1,0 +1,169 @@
+/*paleta de colores*/
+$greenColor     : #324b3c;
+$greenBorder: #3b3834;
+$greenGradient: #6e8d7b;
+$greyColor      : #49443f;
+$greyShadow     : #6d6c6b;
+$greyH1TextColor:#637269;
+$whiteColor     : #ffffff;
+$whiteBoxShadow : #313131;
+
+/*import*/
+@import "servicios";
+@import "serviciosMobile";
+@import "actualidad";
+@import "actualidadMobile";
+@import "index";
+@import "indexMobile";
+
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+/* etiqueta raíz */
+html {
+    font-size : 62.5%;
+    text-align: justify;
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    font-size  : 3rem;
+    font-weight: 500;
+    color      : $greenColor
+}
+
+/*navbar hamburger mobile*/
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    font-size  : 2rem;
+    width      : 100%;
+    z-index    : 100;
+}
+
+.backgroundColor {
+    background-color: $greyColor;
+}
+
+
+.menu-display {
+    display       : flex;
+    flex-direction: row;
+}
+
+#displayNoneMenu {
+    display: none;
+}
+
+.aria-expanded {
+    height: 11rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size  : 1.5rem;
+}
+
+.dropdown-item {
+    font-size  : 1.6rem;
+    font-weight: 600;
+
+}
+
+.navbarOpacity {
+    opacity: 70%;
+}
+
+.navbar-brand {
+    padding-right: 1rem;
+}
+
+.navbar-toggler-icon {
+    color: $whiteColor;
+}
+
+#colorMenu {
+    color        : $whiteColor;
+    padding-right: 5rem;
+}
+
+/*carousel*/
+.carousel {
+    z-index: 1;
+}
+
+p {
+    font-size  : 1.75rem;
+    /* 20px */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family  : 'Ubuntu', sans-serif;
+    font-size    : 3rem;
+    padding      : 1.5rem;
+    font-weight  : 500;
+    color        : $greyH1TextColor;
+    border-bottom: 1rem solid $greyH1TextColor;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    margin     : 1.25rem 2.5rem 1.25rem 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size  : 2.5rem;
+    font-weight: 500;
+    color      : $greenColor;
+}
+
+h3 {
+    margin     : 1.25rem 2.5rem 1.25rem 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size  : 2.5rem;
+    color      : $greyColor
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size  : 2rem;
+}
+
+footer {
+    text-align : center;
+    font-size  : 0.75rem;
+    border-top : 1rem solid black;
+    padding-top: 1rem;
+    margin-top : 1.5rem;
+    opacity    : 75%;
+}
+
+.italica {
+    font-style: italic;
+}
+
+
+/*mobile*/
+
+@media (max-width: 576px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #dispalyNoneMenu {
+        display: none;
+    }
+    #menu--color {
+        color: $whiteColor;
+    }
+}

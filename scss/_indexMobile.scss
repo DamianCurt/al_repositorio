@@ -1,0 +1,34 @@
+@media (max-width: 576px) {
+    .article {
+        flex-direction: column;
+        margin-top    : 4rem;
+    }
+    .article__card__background {
+        width: 80%;
+    }
+    .article--transform:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 768px) {
+
+    #contentSection {
+        display: grid;
+        grid-template-areas:
+            "article"
+            "rrss";
+        grid-template-columns: 100%;
+    }
+
+    .article--transform:hover {
+        transform: scale(1.2);
+    }
+
+    #rrss {
+        flex-direction: column;
+        flex-wrap     : wrap;
+        row-gap: 3rem;
+        margin-top    : 4rem;
+    }
+}

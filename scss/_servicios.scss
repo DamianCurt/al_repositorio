@@ -1,0 +1,94 @@
+#servicios__cards__grid {
+    display                 : grid;
+    grid-template-areas: "card--a card--b card--c";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: stretch;
+}
+
+#card--a {
+    grid-area: "card--a";
+}
+
+#card--b {
+    grid-area: "card--b";
+}
+
+#card--c {
+    grid-area: "card--c";
+}
+
+.card--spacing {
+    column-gap: 1rem;
+}
+
+.card__background {
+    background: linear-gradient(to bottom, $greenColor, $greenGradient);
+}
+
+.card__header {
+    text-align: center;
+}
+
+#servicios__buttons__grid {
+    display                 : grid;
+    grid-template-areas: "button--a button--b button--c";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#button--a {
+    grid-area: "button--a";
+}
+
+#button--b {
+    grid-area: "button--b";
+}
+
+#button--c {
+    grid-area: "button--c";
+}
+
+.button--reset {
+    background: none;
+    border: none;
+}
+
+.servicios__buttons__background {
+    background   : linear-gradient(to bottom, $greenColor, $greenGradient);
+    text-align   : center;
+    border-radius: 3.5rem;
+    text-align   : center;
+    opacity      : 80%;
+}
+
+.servicios__buttons__border {
+    border-bottom: 1rem;
+    border-right: 1rem;
+    border-color: $greyShadow;
+}
+
+.servicios__buttons__text {
+    text-decoration: none;
+    font-size      : 2.5rem;
+    font-weight    : 600;
+    padding-left     : 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color          : $whiteColor;
+    font-family    : 'Ubuntu', sans-serif;
+    text-align     : center;
+}
+
+.servicios__buttons__background:hover {
+    opacity   : 100%;
+    background: $greenColor;
+    color     : $whiteColor;
+}
+
+.servicios__buttons__text:hover {
+    color: $whiteColor;
+}

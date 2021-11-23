@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .article__card__background__actualidad {
+        width: 40%;
+    }
+    #rrssActualidad {
+        flex-direction: column;
+        flex-wrap     : wrap;
+        align-items   : center;
+        row-gap: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .article__card__background__actualidad {
+        width: 900%;
+    }
+}

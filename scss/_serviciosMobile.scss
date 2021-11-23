@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    #servicios__cards__grid {
+        display: grid;
+        grid-template-areas:
+            "card--a"
+            "card--b"
+            "card--c";
+        grid-template-columns: 100%;
+        row-gap: 3rem;
+        margin-bottom        : 2rem;
+    }
+
+    #servicios__buttons__grid {
+        display: grid;
+        grid-template-areas:
+            "button--a"
+            "button--b"
+            "button--c";
+        grid-template-columns: 100%;
+        row-gap: 3rem;
+        margin-bottom        : 2rem;
+    }
+}
