@@ -1,0 +1,13 @@
+.quienesSomos__card {
+    box-shadow: 0.3rem 0.3rem 2rem gray;
+    margin-bottom: 1.5rem;
+    background-color: $greyColor;   
+}
+
+.quienesSomos__card h2, ul, li, p {
+    color: $whiteColor;
+}
+
+.quienesSomos__card h2 {
+    padding: 2rem;
+}

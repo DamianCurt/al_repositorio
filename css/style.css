@@ -245,6 +245,17 @@
     row-gap: 3rem;
     margin-top: 4rem; } }
 
+.quienesSomos__card {
+  box-shadow: 0.3rem 0.3rem 2rem gray;
+  margin-bottom: 1.5rem;
+  background-color: #49443f; }
+
+.quienesSomos__card h2, ul, li, p {
+  color: #ffffff; }
+
+.quienesSomos__card h2 {
+  padding: 2rem; }
+
 * {
   margin: 0px;
   padding: 0px; }
