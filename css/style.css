@@ -250,7 +250,9 @@
   margin-bottom: 1.5rem;
   background-color: #49443f; }
 
-.quienesSomos__card ul, li, p {
+.quienesSomos__card ul,
+li,
+p {
   color: #ffffff; }
 
 .quienesSomos__card h2 {
@@ -259,10 +261,20 @@
 .quienesSomos--resaltado--blanco {
   background-color: #ffffff;
   padding: 0.75rem;
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+  box-shadow: 0.15rem 0.15rem 0.7rem black; }
 
 .quienesSomos__card p {
-  padding: 1rem; }
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem; }
+
+.quienesSomos--text--style {
+  background-color: #ffffff;
+  color: #324b3c;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 500; }
 
 .quienesSomos__list {
   list-style-position: inside;
