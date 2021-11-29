@@ -4,10 +4,26 @@
     background-color: $greyColor;   
 }
 
-.quienesSomos__card h2, ul, li, p {
+.quienesSomos__card ul, li, p {
     color: $whiteColor;
 }
 
 .quienesSomos__card h2 {
     padding: 2rem;
+}
+
+.quienesSomos--resaltado--blanco {
+    background-color: $whiteColor;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.quienesSomos__card p {
+    padding: 1rem;
+}
+
+.quienesSomos__list {
+    list-style-position: inside;
+    list-style-image: url("../images/check_logo.png");
+    list-style-type: disc;
 }
