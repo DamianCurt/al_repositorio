@@ -277,9 +277,7 @@ p {
   font-weight: 500; }
 
 .quienesSomos__list {
-  list-style-position: inside;
-  list-style-image: url("../images/check_logo.png");
-  list-style-type: disc; }
+  list-style-type: none; }
 
 * {
   margin: 0px;
