@@ -4,9 +4,11 @@
     background-color: $greyColor;
 }
 
-.quienesSomos__card ul,
-li,
-p {
+.quienesSomos__card ul,li {
+    color: $whiteColor;
+}
+
+#quienesSomos--card--text--color {
     color: $whiteColor;
 }
 
@@ -26,6 +28,17 @@ p {
     padding-right: 2.5rem;
     padding-bottom: 2.5rem;
 
+}
+
+#quienesSomos__card__list {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    color: $whiteColor;
+}
+
+#quienesSomos--card--img--size {
+    height: 7rem;
+    width: 7rem;
 }
 
 .quienesSomos--text--style {
