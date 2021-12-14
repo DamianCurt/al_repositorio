@@ -3,45 +3,23 @@
 /*import*/
 #servicios__cards__grid {
   display: grid;
-  grid-template-areas: "card--a card--b card--c";
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  align-items: stretch; }
+  grid-template-areas: "card--a" "card--b" "card--c";
+  grid-template-columns: 100%;
+  row-gap: 3rem;
+  margin-bottom: 2rem; }
 
-#card--a {
-  grid-area: "card--a"; }
-
-#card--b {
-  grid-area: "card--b"; }
-
-#card--c {
-  grid-area: "card--c"; }
-
-.card--spacing {
-  column-gap: 1rem; }
+#servicios__buttons__grid {
+  display: grid;
+  grid-template-areas: "button--a" "button--b" "button--c";
+  grid-template-columns: 100%;
+  row-gap: 3rem;
+  margin-bottom: 2rem; }
 
 .card__background {
   background: linear-gradient(to bottom, #324b3c, #6e8d7b); }
 
 .card__header {
   text-align: center; }
-
-#servicios__buttons__grid {
-  display: grid;
-  grid-template-areas: "button--a button--b button--c";
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-
-#button--a {
-  grid-area: "button--a"; }
-
-#button--b {
-  grid-area: "button--b"; }
-
-#button--c {
-  grid-area: "button--c"; }
 
 .button--reset {
   background: none;
@@ -78,20 +56,6 @@
 
 .servicios__buttons__text:hover {
   color: #ffffff; }
-
-@media (max-width: 768px) {
-  #servicios__cards__grid {
-    display: grid;
-    grid-template-areas: "card--a" "card--b" "card--c";
-    grid-template-columns: 100%;
-    row-gap: 3rem;
-    margin-bottom: 2rem; }
-  #servicios__buttons__grid {
-    display: grid;
-    grid-template-areas: "button--a" "button--b" "button--c";
-    grid-template-columns: 100%;
-    row-gap: 3rem;
-    margin-bottom: 2rem; } }
 
 .article--actualidad {
   display: flex;
