@@ -40,3 +40,10 @@ select {
     border-bottom-right-radius: 0.5rem;
     padding                   : 1rem;
 }
+
+.password--border {
+    border-bottom: solid;
+    border-width              : 0.1rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
