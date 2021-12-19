@@ -297,6 +297,12 @@ select {
   border-bottom-left-radius: 0rem;
   border-bottom-right-radius: 0rem; }
 
+.btn-primary {
+  background-color: #324b3c; }
+
+.btn-primary:hover {
+  background-color: #6e8d7b; }
+
 * {
   margin: 0px;
   padding: 0px; }

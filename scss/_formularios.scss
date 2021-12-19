@@ -47,3 +47,11 @@ select {
     border-bottom-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
 }
+
+.btn-primary {
+    background-color: $greenColor;
+}
+
+.btn-primary:hover {
+    background-color: $greenGradient;
+}
