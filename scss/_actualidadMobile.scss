@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 970px) {
     .article__card__background__actualidad {
         width: 40%;
     }
@@ -8,10 +8,12 @@
         align-items   : center;
         row-gap: 3rem;
     }
+    
 }
 
 @media (max-width: 576px) {
     .article__card__background__actualidad {
         width: 900%;
     }
+    
 }

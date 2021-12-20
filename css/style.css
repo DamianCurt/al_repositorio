@@ -112,7 +112,37 @@
   justify-content: space-evenly;
   list-style: none; }
 
-@media (max-width: 768px) {
+.img--box--size {
+  height: 40%; }
+
+.text--box--size {
+  height: auto; }
+
+.img--size--art-1 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--art-2 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--art-3 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--art-4 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--art-5 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--art-6 {
+  width: 100%;
+  height: 100%; }
+
+@media (max-width: 970px) {
   .article__card__background__actualidad {
     width: 40%; }
   #rrssActualidad {

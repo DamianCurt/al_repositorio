@@ -55,7 +55,22 @@
     padding        : 0rem;
     display        : flex;
     flex-direction : row;
-    column-gap: 3rem;
+    column-gap     : 3rem;
     justify-content: space-evenly;
     list-style     : none;
+}
+
+.img--box--size {
+    height: 40%;
+}
+
+.text--box--size {
+    height: auto;
+}
+
+@for $i from 1 through 6 {
+    .img--size--art-#{$i} {
+        width: 100%;
+        height: 100%;
+    }
 }
