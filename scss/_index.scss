@@ -72,3 +72,15 @@
     align-items   : center;
     list-style    : none;
 }
+
+.img--box--size--dest {
+    height: 40%;
+    width : 100%;
+}
+
+@for $i from 1 through 6 {
+    .img--size--dest-#{$i} {
+        width : 100%;
+        height: 100%;
+    }
+}

@@ -3,15 +3,17 @@
         flex-direction: column;
         margin-top    : 4rem;
     }
+
     .article__card__background {
         width: 80%;
     }
+
     .article--transform:hover {
         transform: scale(1.1);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
 
     #contentSection {
         display: grid;
@@ -28,7 +30,7 @@
     #rrss {
         flex-direction: column;
         flex-wrap     : wrap;
-        row-gap: 3rem;
+        row-gap       : 3rem;
         margin-top    : 4rem;
     }
 }

@@ -64,10 +64,6 @@
     height: 40%;
 }
 
-.text--box--size {
-    height: auto;
-}
-
 @for $i from 1 through 6 {
     .img--size--art-#{$i} {
         width: 100%;

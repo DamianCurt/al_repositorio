@@ -115,9 +115,6 @@
 .img--box--size {
   height: 40%; }
 
-.text--box--size {
-  height: auto; }
-
 .img--size--art-1 {
   width: 100%;
   height: 100%; }
@@ -217,6 +214,34 @@
   align-items: center;
   list-style: none; }
 
+.img--box--size--dest {
+  height: 40%;
+  width: 100%; }
+
+.img--size--dest-1 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--dest-2 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--dest-3 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--dest-4 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--dest-5 {
+  width: 100%;
+  height: 100%; }
+
+.img--size--dest-6 {
+  width: 100%;
+  height: 100%; }
+
 @media (max-width: 576px) {
   .article {
     flex-direction: column;
@@ -226,7 +251,7 @@
   .article--transform:hover {
     transform: scale(1.1); } }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   #contentSection {
     display: grid;
     grid-template-areas: "article" "rrss";
@@ -430,7 +455,7 @@ footer {
   font-size: 0.75rem;
   border-top: 1rem solid black;
   padding-top: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 7rem;
   opacity: 75%; }
 
 .italica {
