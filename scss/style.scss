@@ -49,6 +49,10 @@ header {
     z-index    : 100;
 }
 
+.menu-activo{
+    border-bottom: solid 0.5rem $whiteColor;
+}
+
 .backgroundColor {
     background-color: $greyColor;
 }
