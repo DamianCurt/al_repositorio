@@ -393,6 +393,9 @@ header {
 .menu-activo {
   border-bottom: solid 0.5rem #ffffff; }
 
+#colorMenu:hover {
+  background-color: #313131; }
+
 .backgroundColor {
   background-color: #49443f; }
 

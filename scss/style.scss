@@ -53,6 +53,10 @@ header {
     border-bottom: solid 0.5rem $whiteColor;
 }
 
+#colorMenu:hover {
+    background-color: $whiteBoxShadow;
+}
+
 .backgroundColor {
     background-color: $greyColor;
 }
