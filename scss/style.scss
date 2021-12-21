@@ -1,7 +1,7 @@
 /*paleta de colores*/
 $greenColor     : #324b3c;
-$greenBorder: #3b3834;
-$greenGradient: #6e8d7b;
+$greenBorder    : #3b3834;
+$greenGradient  : #6e8d7b;
 $greyColor      : #49443f;
 $greyShadow     : #6d6c6b;
 $greyH1TextColor:#637269;
@@ -34,6 +34,10 @@ header {
     font-size  : 3rem;
     font-weight: 500;
     color      : $greenColor
+}
+
+#img--slide--size {
+    width: 100%;
 }
 
 /*navbar hamburger mobile*/
@@ -165,6 +169,7 @@ footer {
     #dispalyNoneMenu {
         display: none;
     }
+
     #menu--color {
         color: $whiteColor;
     }

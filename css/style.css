@@ -380,6 +380,9 @@ header {
   font-weight: 500;
   color: #324b3c; }
 
+#img--slide--size {
+  width: 100%; }
+
 /*navbar hamburger mobile*/
 .navbar {
   font-family: 'Ubuntu', sans-serif;
